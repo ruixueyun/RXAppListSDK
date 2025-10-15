@@ -18,6 +18,8 @@ typedef void(^GetAppInfoBlock)(NSArray *result);
  */
 + (instancetype)sharedSDK;
 
+- (void)regist;
+
 - (void)getAppInfoWithConfig:(NSDictionary *)config
                     complete:(GetAppInfoBlock)complete;
 
